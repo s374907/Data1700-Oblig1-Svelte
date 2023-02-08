@@ -14,7 +14,6 @@
             }}
         let copy = JSON.parse(JSON.stringify(choices))
         billetter = [...billetter, copy]
-        console.log(billetter)
     }
     function slettbillett(){
         billetter = []
